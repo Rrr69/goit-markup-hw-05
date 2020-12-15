@@ -534,15 +534,6 @@ img {
   color: var(--primary-page-color);
 }
 
-.address-style {
-  margin-top: 20px;
-  font-style: normal;
-}
-
-.address-margin:not(:last-child) {
-  margin-bottom: 9px;
-}
-
 .portfolio-examples {
   display: flex;
   flex-wrap: wrap;
@@ -564,6 +555,12 @@ img {
 
 .portfolio-examples-link {
   text-decoration: none;
+}
+
+.portfolio-hover-text {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 .item img {
@@ -600,4 +597,13 @@ img {
 
 .logo-second-footer {
   color: var(--primary-page-color);
+}
+
+.address-style {
+  margin-top: 20px;
+  font-style: normal;
+}
+
+.address-margin:not(:last-child) {
+  margin-bottom: 9px;
 }
