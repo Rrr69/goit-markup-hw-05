@@ -657,12 +657,14 @@ img {
   opacity: 1;
   visibility: visible;
   z-index: 1;
+  transition: 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+  transition: 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -673,7 +675,6 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-modal {
