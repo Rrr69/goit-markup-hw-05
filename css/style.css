@@ -666,7 +666,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: var(--timing-fn) 250ms;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-modal {
