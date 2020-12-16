@@ -377,11 +377,13 @@ img {
   height: 44px;
 }
 
-.employees-social-svg-links:hover .employees-social-svg {
+.employees-social-svg-links:hover .employees-social-svg,
+.employees-social-svg-links:focus .employees-social-svg {
   fill: #ffffff;
 }
 
-.employees-social-svg-links:hover {
+.employees-social-svg-links:hover,
+.employees-social-svg-links:focus {
   background: var(--accent-color);
   border-radius: 50%;
 }
@@ -421,11 +423,13 @@ img {
   fill: #afb1b8;
 }
 
-.clients-item-link:hover {
+.clients-item-link:hover,
+.clients-item-link:focus {
   border: 1px solid var(--accent-color);
 }
 
-.clients-item-link:hover .clients-social-svg {
+.clients-item-link:hover .clients-social-svg,
+.clients-item-link:focus .clients-social-svg {
   fill: var(--accent-color);
 }
 
@@ -492,7 +496,8 @@ img {
   fill: #ffffff;
 }
 
-.social-footer-link:hover {
+.social-footer-link:hover,
+.social-footer-link:focus {
   background: var(--accent-color);
 }
 
@@ -578,7 +583,8 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.item:hover .portfolio-hidden-block .portfolio-hover-text {
+.portfolio-examples-link:hover .portfolio-hidden-block .portfolio-hover-text,
+.portfolio-examples-link:focus .portfolio-hidden-block .portfolio-hover-text {
   opacity: 1;
   transform: translateY(0);
 }
@@ -606,8 +612,8 @@ img {
   border: 1px solid #eeeeee;
 }
 
-.item:hover,
-.item:focus {
+.portfolio-examples-link:hover,
+.portfolio-examples-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
